@@ -2,6 +2,9 @@ package com.freire.vagas.modules.candidate;
 
 import java.util.UUID;
 
+import lombok.Data;
+
+@Data
 public class CandidateEntity {
     
     private UUID id;
@@ -11,4 +14,5 @@ public class CandidateEntity {
     private String password;
     private String description;
     private String curriculum;
+    
 }
